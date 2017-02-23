@@ -6,5 +6,30 @@
 </head>
 <body>
 <!-- ich versuche gerade meinen Git Hub zu aktivieren -->
+<button onclick="UpperCase()">Druck drauf</button>
+
+	<p id=demo></p>
+
+<script type="text/javascript">
+	
+	// Write a anonymous JavaScript function to capitalize only first letter of a string. The function accepts only one string argument.
+
+	// Ex. If we pass the following string 'i am web developer' we should get the message 'I am web developer'
+
+	// Hint: Check JavaScript String charAt() Method
+
+		var UpperCase = function () {
+
+			var text = prompt("enter a string", "enter a string")
+			var Text = text.charAt(0).toUpperCase() + text.slice(1);
+			document.getElementById("demo").innerHTML = Text;
+		}
+		 
+
+
+
+			
+
+</script>
 </body>
 </html>
